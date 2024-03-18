@@ -4,12 +4,13 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import untitled.FiltrosPontuais;
 import untitled.aumentoTonalidade;
+import untitled.Converter;
 
 public class Main {
     public static void main(String[] args)  {
         BufferedImage imagem = ManipulaImagem.abrirImagem("image.jpg");
 
-        ManipulaImagem.exibirImagem(imagem, aumentoTonalidade.mudarBandas(imagem,30));
+        ManipulaImagem.exibirImagem(imagem,aumentoTonalidade.mudarY(imagem,50) );
 
         ManipulaImagem.salvarImagem(imagem, "jpg", "img.png");
     }

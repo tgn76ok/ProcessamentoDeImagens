@@ -7,7 +7,6 @@ public class aumentoTonalidade {
     static BufferedImage mudarBandaR(BufferedImage img, float valor) {
         int width = img.getWidth();
         int height = img.getHeight();
-        int Vermelho =0 ;
 
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
@@ -15,12 +14,9 @@ public class aumentoTonalidade {
             for(int w = 0; w < width; w++) {
                 Color cor = new Color(img.getRGB(w, h));
 
-                int result =(int)  Math.min((cor.getRed()+valor), 255);
-                int resultnew = Math.max(result, 0);
-                System.out.println(resultnew);
+                int newred = validarCor((int) valor, cor.getRed());
 
-
-                Color novaCor = new Color(resultnew, cor.getGreen() ,cor.getBlue());
+                Color novaCor = new Color(newred, cor.getGreen() ,cor.getBlue());
                 imgSaida.setRGB(w, h, novaCor.getRGB());
             }
         }
@@ -28,10 +24,26 @@ public class aumentoTonalidade {
         return imgSaida;
     }
 
+    static int validarCor(int valor, int cor) {
+        cor += valor;
+
+        if(cor >255)
+            return 255;
+        else if (cor < 0)
+            return 0;
+        return cor;
+    }
+    static int validarCor(int cor) {
+
+        if(cor >255)
+            return  255;
+        else if (cor < 0)
+            return cor * -1;
+        return cor;
+    }
     static BufferedImage mudarBandaG(BufferedImage img, float valor) {
         int width = img.getWidth();
         int height = img.getHeight();
-        int Vermelho =0 ;
 
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
@@ -39,12 +51,9 @@ public class aumentoTonalidade {
             for(int w = 0; w < width; w++) {
                 Color cor = new Color(img.getRGB(w, h));
 
-                int result =(int)  Math.min((cor.getGreen()+valor), 255);
-                int resultnew = Math.max(result, 0);
-                System.out.println(resultnew);
+                int newgree = validarCor((int) valor, cor.getGreen());
 
-
-                Color novaCor = new Color(cor.getRed(), resultnew ,cor.getBlue());
+                Color novaCor = new Color(cor.getRed(), newgree ,cor.getBlue());
                 imgSaida.setRGB(w, h, novaCor.getRGB());
             }
         }
@@ -55,7 +64,6 @@ public class aumentoTonalidade {
     static BufferedImage mudarBandaB(BufferedImage img, float valor) {
         int width = img.getWidth();
         int height = img.getHeight();
-        int Vermelho =0 ;
 
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
@@ -63,22 +71,19 @@ public class aumentoTonalidade {
             for(int w = 0; w < width; w++) {
                 Color cor = new Color(img.getRGB(w, h));
 
-                int result =(int)  Math.min((cor.getBlue()+valor), 255);
-                int resultnew = Math.max(result, 0);
-                System.out.println(resultnew);
+                int newblue = validarCor((int) valor, cor.getBlue());
 
 
-                Color novaCor = new Color(cor.getRed(), cor.getGreen() ,resultnew);
+                Color novaCor = new Color(cor.getRed(), cor.getGreen() ,newblue);
                 imgSaida.setRGB(w, h, novaCor.getRGB());
             }
         }
 
         return imgSaida;
     }
-    static BufferedImage mudarBandas(BufferedImage img, float valor) {
+    static BufferedImage mudarTodasBandas(BufferedImage img, float valor) {
         int width = img.getWidth();
         int height = img.getHeight();
-        int Vermelho =0 ;
 
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
@@ -86,14 +91,11 @@ public class aumentoTonalidade {
             for(int w = 0; w < width; w++) {
                 Color cor = new Color(img.getRGB(w, h));
 
-                int result =(int)  Math.min((cor.getBlue()+valor), 255);
-                int resultBlue = Math.max(result, 0);
 
-                int resultGreen =(int)  Math.min((cor.getGreen()+valor), 255);
-                int resultnewGreen = Math.max(resultGreen, 0);
 
-                int resultRed =(int)  Math.min((cor.getRed()+valor), 255);
-                int resultnewRed= Math.max(resultRed, 0);
+                int resultBlue = validarCor((int) valor, cor.getBlue());
+                int resultnewGreen = validarCor((int) valor, cor.getGreen());
+                int resultnewRed = validarCor((int) valor, cor.getRed());
 
 
 
@@ -105,4 +107,21 @@ public class aumentoTonalidade {
         return imgSaida;
     }
 
+    static BufferedImage mudarY( BufferedImage img,float valor) {
+        int width = img.getWidth();
+        int height = img.getHeight();
+        BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+        double[][][] matriz = Converter.rbgParaYIQmatriz(img);
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                matriz[i][j][0] = matriz[i][j][0]+valor;
+
+            }
+        }
+        BufferedImage img2Saida =  Converter.converterRGB(matriz, imgSaida);
+
+        return img2Saida;
+    }
 }
