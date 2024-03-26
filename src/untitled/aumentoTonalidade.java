@@ -107,7 +107,7 @@ public class aumentoTonalidade {
         return imgSaida;
     }
 
-    static BufferedImage mudarY( BufferedImage img,float valor) {
+    static BufferedImage mudarAditivoY( BufferedImage img,float valor) {
         int width = img.getWidth();
         int height = img.getHeight();
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
@@ -120,8 +120,23 @@ public class aumentoTonalidade {
 
             }
         }
-        BufferedImage img2Saida =  Converter.converterRGB(matriz, imgSaida);
+        return Converter.converterRGB(matriz, imgSaida);
 
-        return img2Saida;
+    }
+    static BufferedImage mudarMultY( BufferedImage img,float valor) {
+        int width = img.getWidth();
+        int height = img.getHeight();
+        BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+        double[][][] matriz = Converter.rbgParaYIQmatriz(img);
+
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                matriz[i][j][0] = matriz[i][j][0]*valor;
+
+            }
+        }
+        return  Converter.converterRGB(matriz, imgSaida);
+
     }
 }
