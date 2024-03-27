@@ -2,7 +2,7 @@ package untitled;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import untitled.aumentoTonalidade;
+
 
 public class Converter {
     static BufferedImage rbgParaYIQ(BufferedImage img) {
@@ -23,10 +23,6 @@ public class Converter {
                  Ycolor = (int)(0.299 * newred + 0.587 * newgree + 0.114 * newblue);
                  Icolor = (int)(0.596 * newred - 0.274 * newgree - 0.322 * newblue);
                  Qcolor = (int)(0.211 * newred - 0.523 * newgree + 0.312 * newblue);
-                System.out.println(Ycolor+ "-y");
-                System.out.println(Icolor+ "-i");
-                System.out.println(Qcolor+ "-q");
-                System.out.println("-------------------------------");
                 Ycolor = aumentoTonalidade.validarCor(Ycolor);
                 Icolor =aumentoTonalidade.validarCor(Icolor);
                 Qcolor = aumentoTonalidade.validarCor(Qcolor);
@@ -55,10 +51,6 @@ public class Converter {
                 Ycolor = (int)(0.299 * newred + 0.587 * newgree + 0.114 * newblue);
                 Icolor = (int)(0.596 * newred - 0.274 * newgree - 0.322 * newblue);
                 Qcolor = (int)(0.211 * newred - 0.523 * newgree + 0.312 * newblue);
-                System.out.println(Ycolor+ "-y");
-                System.out.println(Icolor+ "-i");
-                System.out.println(matriz[w][h][0]+ "-q");
-                System.out.println("-------------------------------");
 
 
 

@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args)  {
         BufferedImage imagem = ManipulaImagem.abrirImagem("image.jpg");
 
-        ManipulaImagem.exibirImagem(imagem,aumentoTonalidade.mudarY(imagem,50) );
+        ManipulaImagem.exibirImagem(imagem,aumentoTonalidade.mudarMultY(imagem,50) );
 
         ManipulaImagem.salvarImagem(imagem, "jpg", "img.png");
     }

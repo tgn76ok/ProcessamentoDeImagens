@@ -132,26 +132,22 @@ public class FiltrosPontuais {
         }
         return imgSaida;
     }
-    public static BufferedImage FiltroLimiarizacao(BufferedImage imgEntrada) {
+    public static BufferedImage FiltroLimiarizacao(BufferedImage imgEntrada,int limite) {
         int width = imgEntrada.getWidth();
         int height = imgEntrada.getHeight();
-        BufferedImage imgSaida = new BufferedImage(
-                width,
-                height,
-                BufferedImage.TYPE_INT_RGB);
+
 
         BufferedImage imgnewSaida = FiltrosPontuais.FiltroCinzaParaMedia(imgEntrada);
-        Color novaCor = new Color(0, 0 ,0);
-
+        Color novaCor ;
 
         for (int h = 0; h < height; h++) {
             for (int w = 0; w < width; w++) {
                 Color cor = new Color(imgnewSaida.getRGB(w, h));
-                if (cor.getRed() <170){
+                if (cor.getRed() <limite){
                     novaCor = new Color (255, 255 ,255);
-                    System.out.println(cor.getBlue());
-                    System.out.println(cor.getRed());
-                    System.out.println("+=======================");
+
+
+
 
                 }else{
                     novaCor = new Color (0, 0 ,0);
