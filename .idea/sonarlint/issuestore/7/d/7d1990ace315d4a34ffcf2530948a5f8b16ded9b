@@ -1,27 +1,19 @@
 
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8é®åæç1J$82bdd68c-d044-49d5-b3e4-d4aeabd60213
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$cc73217e-f01f-4113-86ec-340c404036c6
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$e160b308-e35a-44c5-80ed-acd73bdf5da2
-˜	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$a3e0a43b-51f1-42cf-bbea-2c05cd7f080d
-˜	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$95b89fec-1064-4e1d-af66-39a206d52872
-˜	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$0b694f6d-6846-44e0-b7b8-9e568b072c39
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8é®åæç1J$ab31f6f0-f3ca-4a53-9fc4-1e2e3505030e
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$404c7358-7cf6-4ceb-9cf2-96492564daf7
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$66574b14-7190-4898-89ed-ce62232720d9
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$4af45c68-6051-4995-aa90-1a87d93e19c4
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$3a6e6116-63b2-4422-a520-f6cd1548a00d
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$5f68fa2f-d426-444f-9442-7428c2104b1d
 ©
-java:S1488V"aImmediately return this expression instead of assigning it to the temporary variable "img2Saida".(‹Ô‚¾şÿÿÿÿ8¡¡òæç1J$31aaeea1-d03b-4dee-8246-97b992d2028b
+java:S1488N"aImmediately return this expression instead of assigning it to the temporary variable "img2Saida".(‹Ô‚¾şÿÿÿÿ8¡¡òæç1J$af9eacce-4270-49aa-a26e-2248ec04fb83
 }
-java:S1118":Add a private constructor to hide the implicit public one.(•ÀœÎ8«¿„çç1J$516eefb3-80e6-4e70-a978-bbe6825374f9
+java:S1118":Add a private constructor to hide the implicit public one.(•ÀœÎ8«¿„çç1J$2b035b3b-15e5-4658-899e-6355f5f11cca
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ªñÓ8Ç¨¥»é1J$a30ac8d0-3603-472d-a6fe-2732195a2607
 ‹
-java:S1659	"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8¯åæç1J$a5c792d4-4766-4cf4-8811-bb7c4dd26bf5
-m	java:S106"+Replace this use of System.out by a logger.(ª³µŞ8„¯åæç1J$34355b5e-e67f-4a7a-ae79-3acfffa64c84
-r	java:S106"+Replace this use of System.out by a logger.(øÓª„şÿÿÿÿ8„¯åæç1J$bbdd25e5-bada-4929-8d0c-5d244e02d6c8
-m	java:S106"+Replace this use of System.out by a logger.(±¢Ì¨8„¯åæç1J$a53a0554-1314-4fce-8d15-f6388a03df12
-r	java:S106"+Replace this use of System.out by a logger.(ç‘ë®üÿÿÿÿ8„¯åæç1J$2d9b2590-c5ca-4837-abec-9d6c9fdba27d
+java:S1659	"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8¯åæç1J$b892d747-15ce-47cf-81e2-518124eed80a
+•	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¸ß§ùÿÿÿÿ8ÑŞ¥»é1J$4ac9a94b-5d56-4384-bc69-5d4fafeb36c4
 ‹
-java:S1659+"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8‡¯åæç1J$104f17e4-3248-4224-a846-3f2b1fae17c5
+java:S1659'"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8‡¯åæç1J$9ce473cd-32f3-4444-9de5-7245815331e3
 v
-java:S1197.".Move the array designators [][][] to the type.(Ä¤“şşÿÿÿÿ8ÿŸşæç1J$b377c2b6-c6f2-449b-9b85-14a9f668337b
-m	java:S106:"+Replace this use of System.out by a logger.(ª³µŞ8Š¯åæç1J$05a96394-c8dc-43ae-a500-3bd7caa69966
-r	java:S106;"+Replace this use of System.out by a logger.(øÓª„şÿÿÿÿ8Š¯åæç1J$9881ef58-15c1-40f7-ae5a-d35a7c2de8cf
-r	java:S106<"+Replace this use of System.out by a logger.(õş±Şûÿÿÿÿ8Š¯åæç1J$ef2b8cd0-c296-4a01-a55e-e8067ece31e1
-r	java:S106="+Replace this use of System.out by a logger.(ç‘ë®üÿÿÿÿ8Š¯åæç1J$d8a99849-6f13-4ef7-9efc-1cfcf20ffe24
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(øŸ‚ñûÿÿÿÿ8ºüæç1J$08c337ff-b841-4d24-995c-eb0783ba2872
+java:S1197*".Move the array designators [][][] to the type.(Ä¤“şşÿÿÿÿ8ÿŸşæç1J$b3a1746d-dfe6-41b1-9c7b-9178da5edf00

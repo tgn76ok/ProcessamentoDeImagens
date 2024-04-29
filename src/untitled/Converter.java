@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 
 
 public class Converter {
-    static BufferedImage rbgParaYIQ(BufferedImage img) {
+    static BufferedImage RGBaraYIQ(BufferedImage img) {
         int Ycolor,Icolor,Qcolor;
         int width = img.getWidth();
         int height = img.getHeight();
@@ -35,7 +35,7 @@ public class Converter {
 
         return imgSaida;
     }
-    static double[][][] rbgParaYIQmatriz(BufferedImage img) {
+    static double[][][] RGBParaYIQmatriz(BufferedImage img) {
         int Ycolor,Icolor,Qcolor;
         int width = img.getWidth();
         int height = img.getHeight();
@@ -67,7 +67,7 @@ public class Converter {
         int height = img.getHeight();
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
-            double[][][] matriz = rbgParaYIQmatriz(img);
+            double[][][] matriz = RGBParaYIQmatriz(img);
 
             for (int i = 0; i < matriz.length; i++) {
                 for (int j = 0; j < matriz[i].length; j++) {

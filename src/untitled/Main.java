@@ -10,9 +10,9 @@ public class Main {
     public static void main(String[] args)  {
         BufferedImage imagem = ManipulaImagem.abrirImagem("image.jpg");
 
-        ManipulaImagem.exibirImagem(imagem,aumentoTonalidade.mudarMultY(imagem,50) );
+        ManipulaImagem.exibirImagem(imagem,OperacoesLocais.mediana(imagem,6) );
 
-        ManipulaImagem.salvarImagem(imagem, "jpg", "img.png");
+        ManipulaImagem.salvarImagem(imagem, "jpg", "img.jpg");
     }
 
     private static BufferedImage filtroNegativo(BufferedImage img) {

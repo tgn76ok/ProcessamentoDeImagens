@@ -112,7 +112,7 @@ public class aumentoTonalidade {
         int height = img.getHeight();
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
-        double[][][] matriz = Converter.rbgParaYIQmatriz(img);
+        double[][][] matriz = Converter.RGBParaYIQmatriz(img);
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
@@ -128,7 +128,7 @@ public class aumentoTonalidade {
         int height = img.getHeight();
         BufferedImage imgSaida = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
 
-        double[][][] matriz = Converter.rbgParaYIQmatriz(img);
+        double[][][] matriz = Converter.RGBParaYIQmatriz(img);
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
