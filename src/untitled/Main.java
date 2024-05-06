@@ -9,8 +9,11 @@ import untitled.Converter;
 public class Main {
     public static void main(String[] args)  {
         BufferedImage imagem = ManipulaImagem.abrirImagem("image.jpg");
+        int[] kernel1 = {100, 100, 100, 100, 100, 100, 100, 100, 100}; // Kernel 3x3 com pesos diferentes
+        int[] kernel = {1, 2, 1, 2, 4, 2, 1, 2, 1}; // Kernel 3x3 com pesos diferentes
 
-        ManipulaImagem.exibirImagem(imagem,OperacoesLocais.mediana(imagem,6) );
+
+        ManipulaImagem.exibirImagem(imagem,OperacoesLocais.media(imagem,kernel), OperacoesLocais.mediana(imagem,kernel));
 
         ManipulaImagem.salvarImagem(imagem, "jpg", "img.jpg");
     }

@@ -1,9 +1,13 @@
 
+~
+java:S1854";Remove this useless assignment to local variable "kernel1".(Ğ¢ñ8Å›“Şô1J$573665de-4dfd-40a7-9269-5d2b02a9d18d
+o
+java:S1481",Remove this unused "kernel1" local variable.(Ğ¢ñ8É›“Şô1J$3c86a442-0bcb-432d-9d35-3c90ee74e973
 œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ëï¿—şÿÿÿÿ8»¾ŠÇò1J$0933e7c9-db0c-46a3-b64d-2299ab71c3cc
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(Ëï¿—şÿÿÿÿ8Ğ›“Şô1J$34e3a01d-4241-450a-b447-51ae3e99c6a8
 œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(øŸ‚ñûÿÿÿÿ8¼¾ŠÇò1J$ea6c238e-d37d-44d3-b632-1bcd326a5dfa
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(øŸ‚ñûÿÿÿÿ8Ğ›“Şô1J$89834756-ff45-4726-8e13-a00722526ff8
 œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¼È±Îşÿÿÿÿ8¼¾ŠÇò1J$62d58487-ce9c-4bee-a92d-b49e760eb1ec
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(¼È±Îşÿÿÿÿ8Ğ›“Şô1J$61b7ab56-45bd-4500-9480-0fac5e4e9556
 {
-java:S1144"3Remove this unused private "filtroNegativo" method.(Ÿ‹ıĞúÿÿÿÿ8¡îŠçç1J$9573436d-7bc6-4e96-bd0f-6b6a53e7cbaf
+java:S1144"3Remove this unused private "filtroNegativo" method.(Ÿ‹ıĞúÿÿÿÿ8Ò›“Şô1J$315716c4-03aa-42d6-b991-67f3b06621dc

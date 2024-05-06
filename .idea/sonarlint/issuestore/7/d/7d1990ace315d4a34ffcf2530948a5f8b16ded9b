@@ -1,19 +1,19 @@
 
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8é®åæç1J$ab31f6f0-f3ca-4a53-9fc4-1e2e3505030e
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$404c7358-7cf6-4ceb-9cf2-96492564daf7
-˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$66574b14-7190-4898-89ed-ce62232720d9
-˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$4af45c68-6051-4995-aa90-1a87d93e19c4
-˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$3a6e6116-63b2-4422-a520-f6cd1548a00d
-˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$5f68fa2f-d426-444f-9442-7428c2104b1d
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8é®åæç1J$3c69876f-87cb-4291-9546-1f58c004fe81
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$8ec81c54-1cc1-4172-b2ad-515243630a43
+˜	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$36c51679-48a7-425e-86d6-b8363846a8ab
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$0c944e97-7032-453c-905b-9166e64b387c
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$465d4565-c6be-46e0-9e67-52f9e301e02f
+˜	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ–˜ÿÿÿÿÿ8ê®åæç1J$4f4b7c2a-efe9-41b7-bebc-d4d86bf835e9
 ©
-java:S1488N"aImmediately return this expression instead of assigning it to the temporary variable "img2Saida".(‹Ô‚¾şÿÿÿÿ8¡¡òæç1J$af9eacce-4270-49aa-a26e-2248ec04fb83
+java:S1488N"aImmediately return this expression instead of assigning it to the temporary variable "img2Saida".(‹Ô‚¾şÿÿÿÿ8¡¡òæç1J$96bdddba-a9c5-47c1-84c9-47f74bd34857
 }
-java:S1118":Add a private constructor to hide the implicit public one.(•ÀœÎ8«¿„çç1J$2b035b3b-15e5-4658-899e-6355f5f11cca
-	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ªñÓ8Ç¨¥»é1J$a30ac8d0-3603-472d-a6fe-2732195a2607
+java:S1118":Add a private constructor to hide the implicit public one.(•ÀœÎ8«¿„çç1J$c3f47f30-dbe0-4bd8-ba89-9c340f93493a
+	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ªñÓ8Ç¨¥»é1J$d7e833f5-a5a3-4364-b4d0-3de4ebf80ad2
 ‹
-java:S1659	"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8¯åæç1J$b892d747-15ce-47cf-81e2-518124eed80a
-•	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¸ß§ùÿÿÿÿ8ÑŞ¥»é1J$4ac9a94b-5d56-4384-bc69-5d4fafeb36c4
+java:S1659	"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8¯åæç1J$4a212d8b-82ed-4540-baa1-d8319830275a
+•	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²¸ß§ùÿÿÿÿ8ÑŞ¥»é1J$799bad8c-96bd-4aaf-bb63-3712126dd819
 ‹
-java:S1659'"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8‡¯åæç1J$9ce473cd-32f3-4444-9de5-7245815331e3
+java:S1659'"CDeclare "Icolor" and all following declarations on a separate line.(œ–˜ÿÿÿÿÿ8‡¯åæç1J$e782d1eb-9fa9-4672-8b38-03ed4c5a19ae
 v
-java:S1197*".Move the array designators [][][] to the type.(Ä¤“şşÿÿÿÿ8ÿŸşæç1J$b3a1746d-dfe6-41b1-9c7b-9178da5edf00
+java:S1197*".Move the array designators [][][] to the type.(Ä¤“şşÿÿÿÿ8ÿŸşæç1J$d175ed6c-7ea6-4b0a-b751-ea1657b680f5
